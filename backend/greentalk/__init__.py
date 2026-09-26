@@ -1,0 +1,1 @@
+# GreenTalk Django project package

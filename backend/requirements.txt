@@ -1,0 +1,61 @@
+# ============================================================
+# GreenTalk Backend — Requirements
+# Pinned with exact == versions (pip freeze after clean install)
+# All packages: MIT / BSD / Apache-2.0 licensed (open source)
+# ============================================================
+# To install:  pip install -r requirements.txt
+# To audit:    pip-audit  OR  safety check -r requirements.txt
+# ============================================================
+
+# --- Core Framework ---
+Django==5.2.1
+djangorestframework==3.16.0
+djangorestframework-simplejwt==5.5.0
+
+# --- Database ---
+psycopg2-binary==2.9.10
+
+# --- Environment & Config ---
+django-environ==0.11.2
+
+# --- CORS ---
+django-cors-headers==4.7.0
+
+# --- HTML Sanitization (XSS prevention) ---
+nh3==0.2.18
+
+# --- Slug generation ---
+python-slugify==8.0.4
+
+# --- Image processing (file upload validation) ---
+Pillow==11.2.1
+
+# --- API Documentation (OpenAPI/Swagger) ---
+drf-spectacular==0.28.0
+
+# --- Sitemap ---
+# Built into Django (django.contrib.sitemaps) — no extra package needed
+
+# --- Rate limiting ---
+# Using DRF's built-in throttling (AnonRateThrottle / UserRateThrottle)
+# django-ratelimit available if more granular control needed:
+# django-ratelimit==4.1.0
+
+# --- Testing ---
+pytest==8.3.5
+pytest-django==4.10.0
+pytest-cov==6.1.0
+factory-boy==3.3.3
+Faker==37.1.0
+
+# --- Production server ---
+gunicorn==23.0.0
+
+# --- Static files ---
+whitenoise==6.9.0
+
+# --- Security audit (run in CI) ---
+pip-audit==2.9.0
+
+# --- Dev/debug utilities (local only — do NOT install in production) ---
+# django-debug-toolbar==5.2.0

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to GreenTalk!</title>
+</head>
+<body style="font-family: Arial, sans-serif; background:#f4f4f4; margin:0; padding:20px;">
+  <div style="max-width:600px; margin:auto; background:#fff; border-radius:8px; padding:32px;">
+    <h2 style="color:#2d6a4f;">🌱 Welcome to GreenTalk!</h2>
+    <p>Hi {{ user.first_name|default:user.username }},</p>
+    <p>Your email has been verified and your account is now active. We're thrilled to have you in our growing community!</p>
+    <p>Here's what you can do on GreenTalk:</p>
+    <ul style="line-height:1.8; color:#444;">
+      <li>📝 Write blog posts about your gardening experiences</li>
+      <li>🌿 Exchange plants with local community members</li>
+      <li>🛒 Buy and sell plants in the marketplace</li>
+      <li>💬 Comment and connect with fellow plant lovers</li>
+    </ul>
+    <p style="text-align:center; margin:28px 0;">
+      <a href="{{ frontend_url }}"
+         style="background:#2d6a4f; color:#fff; padding:12px 24px;
+                text-decoration:none; border-radius:6px;">
+        Start Exploring
+      </a>
+    </p>
+    <hr style="border:none; border-top:1px solid #eee; margin:24px 0;">
+    <p style="color:#aaa; font-size:12px; text-align:center;">© GreenTalk — Grow together 🌿</p>
+  </div>
+</body>
+</html>
