@@ -4,6 +4,10 @@ React 19 + Vite SPA for the GreenTalk community blog and plant exchange platform
 
 ---
 
+<p align="center">
+  <img src="/images/homepage.PNG" alt="Form Screenshot" width="800" />
+</p>
+
 ## Table of Contents
 
 1. [Tech Stack & Design Decisions](#tech-stack--design-decisions)
