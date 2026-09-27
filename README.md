@@ -1,7 +1,7 @@
 # GreenTalk Frontend
 
 React 19 + Vite SPA for the GreenTalk community blog and plant exchange platform.
-
+(Time : 6 Hours)
 ---
 
 <p align="center">
